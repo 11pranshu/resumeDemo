@@ -1,0 +1,240 @@
+.container{
+    text-transform: capitalize;
+}
+.head{
+    background-color: #163e50;
+    height: 100px;
+    text-transform: capitalize;
+    position: relative;
+}
+.company_title{
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    height: 100%;
+    width: 20%;
+    /* margin-left: 5%; */
+    /* font-size: 17px; */
+}
+.head .score_card {
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    font-size: 20px;
+}
+.resume_heading{
+    background-color: rgba(220, 220, 220, 0.5);
+    padding: 1.5% 0% 1.5% 5%;
+    border-radius: 0 5px 5px 0;
+    font-weight: 700;
+    color: gray;
+}
+.details_box{
+    padding: 3% 3%;
+    margin: 2%;
+    background-color: rgba(220, 220, 220, 0.3);
+    border-radius: 10px;
+}
+.details_heading{
+    color: rgb(114, 110, 110);
+    padding-bottom: 2%;
+    
+}
+.details_heading_border{
+    border-bottom: 5px solid DarkSlategray;
+    width: 15%;
+}
+.detail_table h5 {
+    color: rgba(0, 0, 0, 0.7);
+}
+.detail_table h4 {
+    color: rgba(0, 0, 0, 0.8);
+}
+.detail_table ul {
+    list-style: none;
+}
+.detail_table ul li {
+    display: inline;
+    padding: 1%;
+    margin: 0% 3% 0% 1%;
+    border-radius: 15px;
+    border: 2px solid gray;
+    font-size: 16px;
+    font-weight: 600;
+}
+.work-x_box{
+    padding: 3% 3%;
+    margin: 2%;
+    background-color: rgba(220, 220, 220, 0.3);
+    border-radius: 10px;
+}
+.work-x_heading{
+    color: rgb(114, 110, 110);
+    padding-bottom: 2%;
+}
+.work-x_heading_border{
+    border-bottom: 5px solid DarkSlategray;
+    width: 15%;
+}
+.work-x_year{
+    text-align: right;
+}
+.work-x_detail{
+    color: rgb(163, 151, 151);
+    font-weight: 600;
+}
+.project_details_box{
+    padding: 3% 3%;
+    margin: 2%;
+    background-color: rgba(220, 220, 220, 0.3);
+    border-radius: 10px;
+}
+.project_details_heading{
+    color: rgb(114, 110, 110);
+    padding-bottom: 2%;
+}
+.project_details_heading_border{
+    border-bottom: 5px solid DarkSlategray;
+    width: 13%;
+}
+.project-detail{
+    color: rgb(163, 151, 151);
+    font-weight: 500;
+}
+.score_card_heading{
+    background-color: rgba(220, 220, 220, 0.5);
+    padding: 1.5% 0% 1.5% 5%;
+    border-radius: 0 5px 5px 0;
+    font-weight: 700;
+    color: gray;
+}
+.interview_ss_box{
+    padding: 3% 3%;
+    margin: 2%;
+    background-color: rgba(220, 220, 220, 0.3);
+    border-radius: 10px;
+}
+.interview_ss_heading{
+    color: rgb(114, 110, 110);
+    padding-bottom: 2%;
+}
+.interview_ss_border{
+    border-bottom: 5px solid DarkSlategray;
+    width: 40%;
+}
+.interview_timing{
+    text-align: right;
+    font-weight: 600;
+    font-size: 16px;
+}
+.interview_link{
+    font-weight: 600;
+}
+.interview_link a {
+    text-decoration: none;
+}
+.interview_ss{
+    width: 150px;
+    height: 50px;
+}
+.overall_score_box{
+    padding: 3% 3%;
+    margin: 2%;
+    background-color: rgba(220, 220, 220, 0.3);
+    border-radius: 10px;
+}
+.overall_score_heading{
+    color: rgb(114, 110, 110);
+    padding-bottom: 2%;
+}
+.overall_score_border{
+    border-bottom: 5px solid DarkSlategray;
+    width: 20%;
+}
+.stackwise_box{
+    padding: 3% 3%;
+    margin: 2%;
+    background-color: rgba(220, 220, 220, 0.3);
+    border-radius: 10px;
+}
+.stackwise_heading{
+    color: rgb(114, 110, 110);
+    padding-bottom: 2%;
+}
+.stackwise_border{
+    border-bottom: 5px solid DarkSlategray;
+    width: 30%;
+}
+.stackwise_box ul li {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+    /* display: block; */
+}
+.other_activity_box{
+    padding: 3% 3%;
+    margin: 2%;
+    background-color: rgba(220, 220, 220, 0.3);
+    border-radius: 10px;
+}
+.other_activity_heading{
+    color: rgb(114, 110, 110);
+    padding-bottom: 2%;
+}
+.other_activity_border{
+    border-bottom: 5px solid DarkSlategray;
+    width: 20%;
+}
+.other_activity_box h5,
+.other_activity_box p {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 700;
+}
+.other_activity_box p{
+    font-weight: 600;
+}
+.your_activity_box{
+    padding: 3% 3%;
+    margin: 2%;
+    background-color: rgba(220, 220, 220, 0.3);
+    border-radius: 10px;
+}
+.your_activity_heading{
+    color: rgb(114, 110, 110);
+    padding-bottom: 2%;
+}
+.your_activity_border{
+    border-bottom: 5px solid DarkSlategray;
+    width: 10%;
+}
+.your_activity_box h5,
+.your_activity_box p {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 700;
+}
+.your_activity_box p{
+    font-weight: 600;
+}
+.other_activity_box .progress_bar ,
+.your_activity_box .progress_bar{
+    width: 70%;
+}
+.other_activity_box .progress_bar div ,
+.your_activity_box .progress_bar div{
+    background-color: #163e50;
+}
+.note_box{
+    padding: 3% 3%;
+    margin: 2%;
+    background-color: rgba(220, 220, 220, 0.3);
+    border-radius: 10px;
+}
+.note_heading{
+    color: rgb(114, 110, 110);
+    padding-bottom: 2%;
+}
+footer{
+    background-color: #163e50;
+    color: white;
+    padding: 1%;
+}
